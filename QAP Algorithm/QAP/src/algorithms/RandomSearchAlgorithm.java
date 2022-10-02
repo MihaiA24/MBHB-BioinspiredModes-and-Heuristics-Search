@@ -35,7 +35,7 @@ public class RandomSearchAlgorithm extends Algorithm {
 
     public Results applyRandomSeach(int nIter) {
         int [] initSolution = this.getRandomSolution();
-        int [] actualSolution = initSolution;
+        int [] actualSolution;
         int [] bestSolution = initSolution;
         int iter = 0;
 
