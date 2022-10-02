@@ -6,6 +6,12 @@ public class Results {
     private int iterations; // numero de iteraciones
 
 
+    public Results(int [] sol,int cost, int nIter){
+        this.sol = sol;
+        this.cost = cost;
+        this.iterations = nIter;
+    }
+
     public int[] getSol() {
         return sol;
     }
